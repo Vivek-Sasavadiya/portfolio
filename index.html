@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Vivek Sasavadiya Portfolio</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/VS.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.webp" alt=""> -->
+        <h2 class="sitename">Vivek Sasavadiya</h2>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Education</a></li>
+          <li><a href="#portfolio">Projects</a></li>          
+          <li><a href="#certificates">Certificates</i></a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted" href="assets/resume/Vivek_Sasavadiya_Resume.pdf" 
+		class="btn-get-started"  download="Vivek_Sasavadiya_Resume.pdf" >
+		<span>Download Resume</span>
+			</a>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="zoom-out">
+            <h1>Developer</h1>
+             <p>"Developer with expertise in web, mobile, and IoT integration, focused on building scalable and user-friendly applications. Dedicated to delivering solutions that connect technology with real-world impact."</p>
+            <p>"Success is not permanent, and failure is not final — learning never stops."</p>
+		  <div class="d-flex">
+			<a href="assets/resume/Vivek_Sasavadiya_Resume.pdf" 
+			   class="btn-get-started" 
+			   download="Vivek_Sasavadiya_Resume.pdf" >
+			  <span>Download Resume</span>
+			</a>
+
+		  </div>
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="200">
+            <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- Skill Section -->
+    <section id="skill" class="skill section light-background">
+
+      <div class="container" data-aos="zoom-in">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 2,
+                  "spaceBetween": 40
+                },
+                "480": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 60
+                },
+                "640": {
+                  "slidesPerView": 4,
+                  "spaceBetween": 80
+                },
+                "992": {
+                  "slidesPerView": 5,
+                  "spaceBetween": 120
+                },
+                "1200": {
+                  "slidesPerView": 6,
+                  "spaceBetween": 120
+                }
+              }
+            }
+          </script>
+		  <div class="swiper-wrapper align-items-center">
+		  <div class="swiper-slide"><img src="assets/img/clients/java.png" class="tech-logo" alt="Java"></div>
+		  <div class="swiper-slide"><img src="assets/img/clients/C++.png" class="tech-logo" alt="C++"></div>
+		  <div class="swiper-slide"><img src="assets/img/clients/liferay.png" class="tech-logo" alt="Liferay"></div>
+		  <div class="swiper-slide"><img src="assets/img/clients/php.png" class="tech-logo" alt="PHP"></div>
+		  <div class="swiper-slide"><img src="assets/img/clients/js.png" class="tech-logo" alt="JavaScript"></div>
+		  <div class="swiper-slide"><img src="assets/img/clients/flutter.png" class="tech-logo" alt="Flutter"></div>
+		  <div class="swiper-slide"><img src="assets/img/clients/plsql.png" class="tech-logo" alt="PL/SQL"></div>
+		  <div class="swiper-slide"><img src="assets/img/clients/mysql.png" class="tech-logo" alt="MySQL"></div>
+		</div>
+
+
+      </div>
+
+    </section><!-- /Skill Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>About Us</h2>
+      </div><!-- End Section Title -->
+
+   <div class="container">
+
+  <div class="row gy-4">
+
+    <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
+      <p><strong>🔹 Introduction</strong><br>
+        I am <strong>Vivek Sasavadiya</strong>, currently pursuing my <strong>MCA at LJ University</strong>. 
+        I have a strong interest in technology and enjoy learning new skills that help me grow personally and professionally.
+      </p>
+      <p><strong>🔹 Knowledge & Skills</strong><br>
+        I have knowledge of <strong>Java, PHP, Python, ASP.NET, Flutter, MySQL, and Liferay Framework</strong>, 
+        and I am always eager to explore new tools and technologies.
+      </p>
+    </div>
+
+    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+      <p><strong>🔹 Experience</strong><br>
+        Through my academic projects, I have gained experience in <strong>application development</strong>, 
+        <strong>database design</strong>, and <strong>problem-solving</strong>, which has improved my ability to work on real-world tasks.
+      </p>
+      <p><strong>🔹 Career Goal</strong><br>
+        I am looking for an <strong>internship or job opportunity</strong> where I can apply my knowledge, 
+        learn from experienced professionals, and continue developing my career in the field of technology.
+      </p>
+    </div>
+
+  </div>
+
+</div>
+
+
+    </section><!-- /About Section -->
+
+ 
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row">
+
+          <div class="col-lg-6 d-flex align-items-center">
+            <img src="assets/img/illustration/illustration-10.webp" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-6 pt-4 pt-lg-0 content">
+
+            <h3>Familiar with this technology</h3>
+                      <p class="fst-italic">
+              Java &nbsp; PHP &nbsp; Python &nbsp; .NET &nbsp; Flutter &nbsp; MySQL &nbsp; Liferay Framework &nbsp; PLSQL
+            </p>
+
+
+            <div class="skills-content skills-animation">
+
+              <div class="progress">
+                <span class="skill"><span>Java, PHP, Python </span> <i class="val">90%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+
+              <div class="progress">
+                <span class="skill"><span>ASP.NET, MySQL </span> <i class="val">85%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+
+              <div class="progress">
+                <span class="skill"><span>Flutter </span> <i class="val">75%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+
+              <div class="progress">
+                <span class="skill"><span>Liferay Framework,Photoshop</span> <i class="val">70%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Skills Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Education Details</h2>
+       
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-mortarboard"></i></div>
+              <h4><a href="" class="stretched-link">MCA (Master of Computer Applications)</a></h4>
+              <p>L.J. Institute of Computer Applications,LJ University</p>
+              <p>2024 - 2026</p>
+               <p>Current SPI: 7.96</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-mortarboard"></i></div>
+              <h4><a href="" class="stretched-link">BCA(Bachelor of Computer Applications)</a></h4>
+              <p>Adarsh BCA College,Botad (MKBU University)</p>
+               <p>2021 - 2024</p>
+               <p>Percentage: 69.69%</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-book"></i></div>
+              <h4><a href="" class="stretched-link">HSC</a></h4>
+              <p>Gyanmandir Vidhyapith, Botad</p>
+               <p>2021</p>
+               <p>Percentage: 67.14%</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-book"></i></div>
+              <h4><a href="" class="stretched-link">SSC</a></h4>
+              <p>Gyanmandir Vidhyapith, Botad</p>
+               <p>2019</p>
+               <p>Percentage: 67.67%</p>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+
+  <!-- Work Process Section -->
+<section id="work-process" class="work-process section">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Work Process</h2>
+    <p>My approach to building reliable, scalable, and user-friendly software solutions.</p>
+  </div><!-- End Section Title -->
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+    <div class="row gy-5">
+
+      <!-- Step 1 -->
+      <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="steps-item">
+          <div class="steps-image">
+            <img src="assets/img/steps/steps-1.webp" alt="Step 1" class="img-fluid" loading="lazy">
+          </div>
+          <div class="steps-content">
+            <div class="steps-number">01</div>
+            <h3>Planning &amp; Requirement Analysis</h3>
+            <p>I begin by understanding project goals, gathering requirements, and researching the best technologies for efficient solutions.</p>
+            <div class="steps-features">
+              <div class="feature-item"><i class="bi bi-check-circle"></i><span>Requirement Gathering</span></div>
+              <div class="feature-item"><i class="bi bi-check-circle"></i><span>Technology Research</span></div>
+              <div class="feature-item"><i class="bi bi-check-circle"></i><span>Project Roadmap</span></div>
+            </div>
+          </div>
+        </div>
+      </div><!-- End Step 1 -->
+
+      <!-- Step 2 -->
+      <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+        <div class="steps-item">
+          <div class="steps-image">
+            <img src="assets/img/steps/steps-2.webp" alt="Step 2" class="img-fluid" loading="lazy">
+          </div>
+          <div class="steps-content">
+            <div class="steps-number">02</div>
+            <h3>Design &amp; Prototyping</h3>
+            <p>I focus on designing clean and user-friendly UI/UX with wireframes and prototypes that ensure smooth user experiences.</p>
+            <div class="steps-features">
+              <div class="feature-item"><i class="bi bi-check-circle"></i><span>Wireframes</span></div>
+              <div class="feature-item"><i class="bi bi-check-circle"></i><span>UI/UX Design</span></div>
+              <div class="feature-item"><i class="bi bi-check-circle"></i><span>Prototyping</span></div>
+            </div>
+          </div>
+        </div>
+      </div><!-- End Step 2 -->
+
+      <!-- Step 3 -->
+      <div class="col-lg-4" data-aos="fade-up" data-aos-delay="400">
+        <div class="steps-item">
+          <div class="steps-image">
+            <img src="assets/img/steps/steps-3.webp" alt="Step 3" class="img-fluid" loading="lazy">
+          </div>
+          <div class="steps-content">
+            <div class="steps-number">03</div>
+            <h3>Development &amp; Deployment</h3>
+            <p>I implement robust backend logic, integrate databases, and ensure responsive front-end design, followed by testing and deployment.</p>
+            <div class="steps-features">
+              <div class="feature-item"><i class="bi bi-check-circle"></i><span>Full-Stack Development</span></div>
+              <div class="feature-item"><i class="bi bi-check-circle"></i><span>Testing &amp; Debugging</span></div>
+              <div class="feature-item"><i class="bi bi-check-circle"></i><span>Deployment &amp; Maintenance</span></div>
+            </div>
+          </div>
+        </div>
+      </div><!-- End Step 3 -->
+
+    </div>
+
+  </div>
+
+</section><!-- /Work Process Section -->
+
+
+   <!-- Call To Action Section -->
+<section id="call-to-action" class="call-to-action section dark-background">
+
+  <img src="assets/img/bg/bg-8.webp" alt="">
+
+  <div class="container">
+
+    <div class="row" data-aos="zoom-in" data-aos-delay="100">
+      <div class="col-xl-9 text-center text-xl-start">
+        <h3>Get In Touch</h3>
+        <p>
+          I’m always open to exciting opportunities, collaborations, and freelance projects.  
+          With hands-on experience in <strong>Java, PHP, Python, ASP.NET, Flutter, MySQL, and Liferay Framework</strong>,  
+          I can help you with web, mobile, and enterprise solutions.  
+          Let’s connect and build something impactful together.
+        </p>
+      </div>
+      <div class="col-xl-3 cta-btn-container text-center">
+        <a class="cta-btn align-middle" href="#contact">Contact Me</a>
+      </div>
+    </div>
+
+  </div>
+
+</section><!-- /Call To Action Section -->
+
+
+    <!-- Portfolio Section -->
+<section id="portfolio" class="portfolio section">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Projects</h2>
+    <p>Here are some of my major academic and personal projects with technologies used and documentation support.</p>
+  </div><!-- End Section Title -->
+
+  <div class="container">
+
+    <div class="row gy-4" data-aos="fade-up" data-aos-delay="200">
+
+      <!-- Project 1: CarePlus -->
+      <div class="col-lg-4 col-md-6 portfolio-item">
+        <img src="assets/img/portfolio/careplus.jpg" class="img-fluid rounded shadow" alt="CarePlus Hospital Project">
+        <div class="portfolio-info p-3">
+          <h4>CarePlus Multiple Hospital Management</h4>
+          <p>A hospital management system with modules for patient records, appointments, billing, and staff.</p>
+          <p><strong>Technologies:</strong> Liferay, MySQL, JavaScript, CSS</p>
+          <a href="assets/docs/CarePlus-Documentation.pdf" class="btn btn-primary mt-2" target="_blank">
+            <i class="bi bi-file-earmark-pdf"></i> Download Documentation
+          </a>
+        </div>
+      </div><!-- End Project Item -->
+
+      <!-- Project 2: IoT Smart Home -->
+      <div class="col-lg-4 col-md-6 portfolio-item">
+        <img src="assets/img/portfolio/IOT.jpeg" class="img-fluid rounded shadow" alt="IoT Smart Home Automation">
+        <div class="portfolio-info p-3">
+          <h4>IoT Smart Home Automation</h4>
+          <p>IoT-based smart system to control AC, fans, and lights using mobile signals, clapping, and temperature sensors.</p>
+          <p><strong>Technologies:</strong> IoT Devices, Arduino/ESP, Mobile App, Sensors Integration</p>
+          <a href="assets/docs/SmartHome-Documentation.pdf" class="btn btn-primary mt-2" target="_blank">
+            <i class="bi bi-file-earmark-pdf"></i> Download Documentation
+          </a>
+        </div>
+      </div><!-- End Project Item -->
+
+      <!-- Project 3: Car Rental -->
+      <div class="col-lg-4 col-md-6 portfolio-item">
+        <img src="assets/img/portfolio/carrental.png" class="img-fluid rounded shadow" alt="Car Rental System">
+        <div class="portfolio-info p-3">
+          <h4>Car Rental System</h4>
+          <p>Web-based platform for booking, managing, and tracking rental cars with payment integration.</p>
+          <p><strong>Technologies:</strong> PHP, MySQL, JavaScript</p>
+          <a href="assets/docs/CarRental-Documentation.pdf" class="btn btn-primary mt-2" target="_blank">
+            <i class="bi bi-file-earmark-ppt"></i> Download Documentation
+          </a>
+        </div>
+      </div><!-- End Project Item -->
+
+    </div><!-- End Portfolio Container -->
+
+  </div>
+
+</section><!-- /Portfolio Section -->
+
+
+
+   
+<!-- Certificates Section -->
+<section id="certificates" class="certificates section light-background">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Certificates</h2>
+    <p>Here are some of my professional certificates with verification links.</p>
+  </div><!-- End Section Title -->
+
+  <div class="container">
+    <div class="row gy-3 justify-content-center">
+
+      <!-- Certificate 1 -->
+      <div class="col-lg-3 col-md-4 col-sm-6" data-aos="zoom-in" data-aos-delay="100">
+        <div class="certificate-card">
+          <h4>Design Fundamentals</h4>
+          <p><strong>Provider:</strong> Adobe (Coursera)</p>
+          <a href="https://www.coursera.org/account/accomplishments/verify/RZ5ZBUD5L5MV" target="_blank" class="verify-btn">Verify</a>
+        </div>
+      </div>
+
+      <!-- Certificate 2 -->
+      <div class="col-lg-3 col-md-4 col-sm-6" data-aos="zoom-in" data-aos-delay="200">
+        <div class="certificate-card">
+          <h4>Flutter and Dart: Developing iOS, Android, and Mobile Apps</h4>
+          <p><strong>Provider:</strong> IBM (Coursera)</p>
+          <a href="https://www.coursera.org/account/accomplishments/verify/E9O0P3ACSPOQ" target="_blank" class="verify-btn">Verify</a>
+        </div>
+      </div>
+
+      <!-- Certificate 3 -->
+      <div class="col-lg-3 col-md-4 col-sm-6" data-aos="zoom-in" data-aos-delay="300">
+        <div class="certificate-card">
+          <h4>Foundations of User Experience (UX) Design</h4>
+          <p><strong>Provider:</strong> Google (Coursera) </p>
+          <a href="https://www.coursera.org/account/accomplishments/verify/IE2WSVCYC9TS" target="_blank" class="verify-btn">Verify</a>
+        </div>
+      </div>
+
+      <!-- Certificate 4 -->
+      <div class="col-lg-3 col-md-4 col-sm-6" data-aos="zoom-in" data-aos-delay="400">
+        <div class="certificate-card">
+          <h4>Generative AI Content Creation </h4>
+          <p><strong>Provider:</strong> Adobe (Coursera)</p>
+          <a href="https://www.coursera.org/account/accomplishments/verify/43Q05S21X9DH" target="_blank" class="verify-btn">Verify</a>
+        </div>
+      </div>
+
+      <!-- Certificate 5 -->
+      <div class="col-lg-3 col-md-4 col-sm-6" data-aos="zoom-in" data-aos-delay="500">
+        <div class="certificate-card">
+          <h4>Generative AI Fundamentals</h4>
+          <p><strong>Provider:</strong> IBM (Coursera)</p>
+          <a href="https://www.coursera.org/account/accomplishments/specialization/S29HJL4MW77X" target="_blank" class="verify-btn">Verify</a>
+        </div>
+      </div>
+
+      <!-- Certificate 6 -->
+      <div class="col-lg-3 col-md-4 col-sm-6" data-aos="zoom-in" data-aos-delay="600">
+        <div class="certificate-card">
+          <h4>Introduction to Agile Development and Scrum </h4>
+          <p><strong>Provider:</strong> IBM (Coursera) </p>
+          <a href="https://www.coursera.org/account/accomplishments/verify/AE63WVT438T7" target="_blank" class="verify-btn">Verify</a>
+        </div>
+      </div>
+
+      <!-- Certificate 7 -->
+      <div class="col-lg-3 col-md-4 col-sm-6" data-aos="zoom-in" data-aos-delay="700">
+        <div class="certificate-card">
+          <h4>Introduction to R Programming for Data Science </h4>
+          <p><strong>Provider:</strong> IBM (Coursera)</p>
+          <a href="https://www.coursera.org/account/accomplishments/verify/Y7PLQ4CPQURQ" target="_blank" class="verify-btn">Verify</a>
+        </div>
+      </div>
+
+      <!-- Certificate 8 -->
+      <div class="col-lg-3 col-md-4 col-sm-6" data-aos="zoom-in" data-aos-delay="800">
+        <div class="certificate-card">
+          <h4>Introduction to Software Engineering </h4>
+          <p><strong>Provider:</strong> IBM (Coursera)</p>
+          <a href="https://www.coursera.org/account/accomplishments/verify/ET8GCB101HRV" target="_blank" class="verify-btn">Verify</a>
+        </div>
+      </div>
+
+      <!-- Certificate 9 -->
+      <div class="col-lg-3 col-md-4 col-sm-6" data-aos="zoom-in" data-aos-delay="900">
+        <div class="certificate-card">
+          <h4>Introduction to Software Testing</h4>
+          <p><strong>Provider:</strong>  University of Minnesota (Coursera)</p>
+          <a href="https://www.coursera.org/account/accomplishments/verify/N5ZGCCBZRUZZ" target="_blank" class="verify-btn">Verify</a>
+        </div>
+      </div>
+
+      <!-- Certificate 10 -->
+      <div class="col-lg-3 col-md-4 col-sm-6" data-aos="zoom-in" data-aos-delay="1000">
+        <div class="certificate-card">
+          <h4>The Bits and Bytes of Computer Networking – </h4>
+          <p><strong>Provider:</strong> Google (Coursera)</p>
+          <a href="https://www.coursera.org/account/accomplishments/verify/6J9XQ6SW5M1L" target="_blank" class="verify-btn">Verify</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</section><!-- /Certificates Section -->
+
+  <!-- Contact Section -->
+<section id="contact" class="contact section">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Contact</h2>
+    <p>Get in touch with me for project inquiries or collaboration.</p>
+  </div><!-- End Section Title -->
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div class="row gy-4">
+
+      <!-- Contact Info -->
+      <div class="col-lg-5">
+        <div class="info-wrap">
+          <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+            <i class="bi bi-geo-alt flex-shrink-0"></i>
+            <div>
+              <h3>Address</h3>
+              <p>Ahmedabad, Gujarat, India</p>
+            </div>
+          </div><!-- End Info Item -->
+
+          <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+            <i class="bi bi-telephone flex-shrink-0"></i>
+            <div>
+              <h3>Call Me</h3>
+              <p>+91 7046512133</p>
+            </div>
+          </div><!-- End Info Item -->
+
+          <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+            <i class="bi bi-envelope flex-shrink-0"></i>
+            <div>
+              <h3>Email</h3>
+              <p>vivekpatel5862@gmail.com</p>
+            </div>
+          </div><!-- End Info Item -->
+
+          <!-- Google Map Embed -->
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.1234567890!2d72.516789!3d23.012345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e85123456789%3A0xabcdef1234567890!2sSouth+Bopal%2C+Ahmedabad%2C+Gujarat!5e0!3m2!1sen!2sin!4v1694491234567!5m2!1sen!2sin"
+ 
+                  frameborder="0" style="border:0; width:100%; height:270px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div><!-- End Contact Info -->
+
+      <!-- Contact Form -->
+      <div class="col-lg-7">
+        <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+          <div class="row gy-4">
+            <div class="col-md-6">
+              <label for="name-field" class="pb-2">Your Name</label>
+              <input type="text" name="name" id="name-field" class="form-control" required>
+            </div>
+
+            <div class="col-md-6">
+              <label for="email-field" class="pb-2">Your Email</label>
+              <input type="email" name="email" id="email-field" class="form-control" required>
+            </div>
+
+            <div class="col-md-12">
+              <label for="subject-field" class="pb-2">Subject</label>
+              <input type="text" name="subject" id="subject-field" class="form-control" required>
+            </div>
+
+            <div class="col-md-12">
+              <label for="message-field" class="pb-2">Message</label>
+              <textarea name="message" rows="8" id="message-field" class="form-control" required></textarea>
+            </div>
+
+            <div class="col-md-12 text-center">
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your message has been sent. Thank you!</div>
+              <button type="submit">Send Message</button>
+            </div>
+          </div>
+        </form>
+      </div><!-- End Contact Form -->
+    </div>
+  </div>
+</section><!-- /Contact Section -->
+
+  </main>
+
+<!-- Footer -->
+<footer id="footer" class="footer">
+
+  <div class="container footer-top py-4">
+    <div class="row gy-4">
+
+      <!-- About / Contact Info -->
+      <div class="col-lg-4 col-md-6 footer-about">
+        <a href="#home" class="d-flex align-items-center">
+          <span class="sitename">Vivek Sasavadiya</span>
+        </a>
+        <div class="footer-contact pt-3">
+          <p>Ahmedabad, Gujarat, India</p>
+          <p class="mt-2"><strong>Phone:</strong> <span>+91 7046512133</span></p>
+          <p><strong>Email:</strong> <span>vivekpatel5862@gmail.com</span></p>
+        </div>
+      </div>
+
+      <!-- Useful Links -->
+      <div class="col-lg-2 col-md-3 footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><i class="bi bi-chevron-right"></i> <a href="#hero">Home</a></li>
+          <li><i class="bi bi-chevron-right"></i> <a href="#about">About</a></li>
+           <li><i class="bi bi-chevron-right"></i> <a href="#services">Education</a></li>
+           <li><i class="bi bi-chevron-right"></i> <a href="#portfolio">Projects</a></li>
+          <li><i class="bi bi-chevron-right"></i> <a href="#certificates">Certificates</a></li>
+          <li><i class="bi bi-chevron-right"></i> <a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Social Links -->
+      <div class="col-lg-4 col-md-6">
+        <h4>Follow Me</h4>
+        <p>Connect with me on social media for updates and projects.</p>
+        <div class="social-links d-flex">
+          <a href="https://instagram.com/" target="https://www.instagram.com/mr.vivu_patel__1706?igsh=czVlNGNsYW1zdTk0"><i class="bi bi-instagram"></i></a>
+          <a href="https://linkedin.com/" target="www.linkedin.com/in/vivek-sasavadiya-134b762b5"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Copyright -->
+  <div class="container text-center mt-4 pb-3">
+    <p>© 2025 <strong class="sitename">Vivek Patel</strong>. All Rights Reserved.</p>
+  </div>
+</footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
